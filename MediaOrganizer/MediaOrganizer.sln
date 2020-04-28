@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29411.108
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MediaOrganizer", "MediaOrganizer.vcxproj", "{56B312F6-E4E7-4BE2-8C2C-14AB554E4114}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -10,10 +12,20 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B312F6-E4E7-4BE2-8C2C-14AB554E4114}.Debug|x64.ActiveCfg = Debug|x64
+		{56B312F6-E4E7-4BE2-8C2C-14AB554E4114}.Debug|x64.Build.0 = Debug|x64
+		{56B312F6-E4E7-4BE2-8C2C-14AB554E4114}.Debug|x86.ActiveCfg = Debug|Win32
+		{56B312F6-E4E7-4BE2-8C2C-14AB554E4114}.Debug|x86.Build.0 = Debug|Win32
+		{56B312F6-E4E7-4BE2-8C2C-14AB554E4114}.Release|x64.ActiveCfg = Release|x64
+		{56B312F6-E4E7-4BE2-8C2C-14AB554E4114}.Release|x64.Build.0 = Release|x64
+		{56B312F6-E4E7-4BE2-8C2C-14AB554E4114}.Release|x86.ActiveCfg = Release|Win32
+		{56B312F6-E4E7-4BE2-8C2C-14AB554E4114}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7A7FD833-6FC1-4890-BC90-5EBAD3812CD1}
+		SolutionGuid = {9805EE9B-EE6D-4129-975B-108EB1F6689D}
 	EndGlobalSection
 EndGlobal
